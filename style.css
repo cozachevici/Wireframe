@@ -1,0 +1,67 @@
+
+
+body {
+    background: #777;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header.outside, nav, section, aside, footer {
+    background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h1, h2, p {
+    font-family: importHelveticaNeue, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #777;
+}
+
+@font-face {
+    font-family: importHelveticaNeue;
+    src: url(helveticaneue-light.otf)
+}
+
+h1, p {
+    color: #777;
+}
+
+h2 {
+    color: #ebebeb;
+}
+
+p.h, p.p {
+    background: #ebebeb;
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    background: #777;
+    padding: 5px;
+    overflow: hidden;
+}
+
+section {
+    width: 495px;
+    float: left;
+    overflow: hidden;;
+}
+
+aside {
+    margin-left: 20px;
+    width: 405px;
+    float: right;
+}
+
+.equal {
+    display: flex;
+}
+
+footer {
+    clear: both;
+}
